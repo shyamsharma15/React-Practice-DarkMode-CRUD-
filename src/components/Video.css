@@ -1,0 +1,61 @@
+.dark{
+    background-color:gray;
+    color:white;
+}
+.container{
+    width:15rem;
+    margin:0 0.2rem;
+    float:left;
+    position:relative;
+}
+
+.container.darkMode{
+    color:white;
+}
+.container.lightMode{
+    color:black;
+
+}
+
+.pic img{
+    width:100%;
+}
+
+.title{
+    font-weight:bold;
+    margin-bottom:1rem;
+    /* color:white; */
+
+}
+
+.channel, .views{
+    font-size:small;
+    /* color:#ccc; */
+    margin-bottom:0.2rem;
+}  
+
+.lightMode .channel,.lightMode .views{
+    color:black;
+}
+
+.darkMode .channel , .views{
+    color:#ccc;
+}
+
+
+.views span{
+    padding:0 0.5rem;
+}
+
+.close{
+    position:absolute;
+    right:0;
+}
+.edit{
+    position:absolute;
+    right:4em;
+}
+.darkMode{
+    background-color:#333;
+
+}
